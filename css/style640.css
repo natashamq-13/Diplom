@@ -1,0 +1,250 @@
+@media screen and (max-width: 640px) {
+  h1 {
+    font-size: 50px;
+  }
+  body {
+    width: 100%;
+  }
+  header {
+    background: url(../images/football_320.png) no-repeat;
+    }
+  .header__top {
+    padding: 33px 0 136px 20%;
+    width: 133px;
+    height: 36px;
+  }
+  .hb_svg {
+    width: 20px;
+    height: 24px;
+  }
+  .header__center {
+    font-size: 28px;
+    padding-bottom: 59px;
+  }
+  .be {
+    padding-left: 20px;
+    letter-spacing: 1.54px;
+  }
+  .play {
+    padding-left: 64px;
+    margin-top: 0;
+    letter-spacing: 1.4px;
+    width: 214px;
+  }
+  .header__bottom{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-bottom: 70px; 
+  }
+  .header__bottom__1{
+    width: 280px;
+    height: 35px;
+    border-radius: 17px 17px 18px;
+    margin-right: 2px;
+  }
+  .hb2 {
+    margin-bottom: 20px;
+  }
+  .bottom__svg__1 {
+    padding-left: 82px;
+    padding-right: 10px;
+  }
+  .bottom__svg__2 {
+    padding-left: 82px;
+    padding-right: 7px;
+  }
+  .header__bottom__text {
+    font-size: 8px;
+  }
+  .bottom_text {
+    letter-spacing: 0.4px;
+  }
+  /*main*/
+  .footbal {
+    position: absolute;
+    width: 192px;
+    height: 281px;
+    left: 70px;
+    top: 662px;
+  }
+  .main__ferst {
+    padding-top: 22px;
+  }
+  .block1__zag {
+    padding-bottom: 245px;
+    padding-left: 21px;
+  }
+  .block1 {
+    padding-bottom: 0;
+    padding-left: 0;
+  }
+  .connect__block{
+    background-color: #fafafa;
+    padding-left: 21px;
+    padding-top: 83px;
+    padding-bottom: 51px;
+  }
+  .connect {
+    display: flex;
+    padding-bottom: 10px;
+  }
+  .numb {
+    font-size: 14px;
+  }
+  .numb:after {
+    padding-left: 16px;
+  }
+  .p1 {
+    padding-left: 10px;
+    font-size: 23px;
+    letter-spacing: 1.15px;
+  }
+  .p2 {
+    font-size: 15px;
+    letter-spacing: 0.75px;
+    width: 266px;
+  }
+  .block2 {
+    padding-bottom: 37px;
+    padding-left: 21px;
+  }
+  .collab {
+    padding-top: 26px;
+    display: flex;
+    padding-bottom: 16px;
+  }
+  .block3 {
+    padding-bottom: 32px;
+    padding-left: 21px;
+  }
+  .grow {
+    display: flex;
+    padding-top: 55px;
+    padding-bottom: 16px;
+  }
+  /*main 2 block*/
+  .block__ferst {
+    padding-left: 0;
+  }
+  .block__second__2, .block__second__3{
+    padding-left: 20px;
+  }
+  .block__second {
+    padding-bottom: 0px;
+  }
+  .block__second__2 {
+    padding-bottom: 37px;
+  }
+  .bascetbol {
+    width: 302px;
+    height: 248px;
+    left: 9px;
+    top: 1720px;
+  }
+  .second__p2 {
+    width: 260px;
+  }
+  /* main block 3 */
+  .active {
+    display: flex;
+    flex-direction: column;
+  }
+  .table__img {
+    width: 100%;
+    height: 351px;
+  }
+  .zero {
+    width: 70px;
+    height: 70px;
+    margin-top: -60px;
+    margin-left: 20px;
+    font-size: 24px;
+  }
+  .zero p{
+    padding: 18px 28px 32px 27px;
+    font-size: 14px;
+  }
+  .zero:after {
+    bottom: 48px;
+    padding-left: 18px;
+    margin-left: 26px;
+    font-size: 15%;
+  }
+  .main__h1 {
+    padding-top: 33px;
+    font-size: 28px;
+    letter-spacing: 1.4px;
+    padding-left: 0px;
+  }
+  .main_p2 {
+    padding-top: 23px;
+    padding-left: 0px;
+    font-size: 16px;
+    width: 229px;
+  }
+  .block__main {
+    padding-bottom: 77px;
+  }
+  .reverse {
+    flex-direction: column-reverse;
+  }
+  .img2 {
+    margin-left: 0;
+  }
+  .zero__2 {
+    z-index: 10;
+  }
+  .block1__zag__2 {
+    width: 960px;
+  }
+  .main__h1__2, .main_p2__2 {
+    margin-left: 0px;
+  }
+    /*footer*/
+  footer {
+    background: url(../images/game_960.png) no-repeat;
+    background-size: cover;
+  }
+  .footer__top {
+    margin-left: 0;
+    padding-top: 99px;
+  }
+  .footer__svg {
+    width: 72px;
+    height: 74px;
+    border-radius: 16px;
+  }
+  .surface__logo {
+    width: 55px;
+    height: 46px;
+    padding-top: 12px;
+    padding-left: 8px;
+  }
+  .footer__h1 {
+    font-family: OpenSans-Regular;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.6px;
+    padding-left: 10px;
+  }
+  .footer__p {
+    color: #9b8ec1;
+    font-family: OpenSans-Regular;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.7px;
+    padding-left: 12px;
+    padding-top: -18px;
+  }
+  .footer__center {
+    padding-top: 76px;
+    padding-bottom: 0;
+  }
+  .footer__bottom {
+    width: 133px;
+    height: 36px;
+    padding: 82px 0 10px 94px;
+  }
+}
