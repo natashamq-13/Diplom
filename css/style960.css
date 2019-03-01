@@ -1,160 +1,270 @@
 @media screen and (max-width: 960px) {
   body {
-    width: 100%;}
+    font-family: OpenSans, sans-serif;
+    width: 100%;
+    margin: 0 auto;
+  }
+  h1 {
+    font-size: 64px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3.2px;
+  }
+  h3 {
+    font-size: 32px;
+    letter-spacing: 1.6px;
+  }
+  p {
+    font-size: 16px;
+    letter-spacing: 0.7px;
+  }
   header {
     background: url(../images/football_767.png) no-repeat;
-    background-size: cover;
-    
     }
   .header__top {
-    padding: 40px 0 181px 282px;
+    padding-top: 38px;
     width: 205px;
-    height: 56px;
-  }
-  .hb_svg {
-    width: 36px;
-    height: 42px;
   }
   .header__center {
-    font-size: 64px;
-    padding-bottom: 200px;
+    padding-top: 156px;
+    padding-bottom: 298px;
+    width: 660px;
   }
-  .be {
-    padding-left: 90px;
-    letter-spacing: 3.52px;
+  .header__center h1 {
+    padding-left: 32px;
   }
   .play {
-    padding-left: 195px;
-    letter-spacing: 3.2px;
-    width: 488px;
-    padding-top: 30px;
+    padding-left: 17%;
+    padding-top: 25px;
+    line-height: 78px;
   }
   .header__bottom{
-    display: flex;
-    padding-left: 15%;
-    padding-bottom: 91px; 
+    padding-left: 4%;
+    padding-bottom: 100px; 
+  }
+  .header__bottom p {
+    font-size: 14px;
   }
   .header__bottom__1{
     margin-right: 30px;
   }
+  .hb_svg {
+    width: 45px;
+    height: 53px;
+  }
   .bottom__svg__1 {
-    padding-left: 41px;
-    padding-right: 28px;
+    padding-left: 36px;
+    padding-right: 23px;
+  }
+  .hb_svg__2 {
+    width: 44px;
+    height: 60px;
   }
   .bottom__svg__2 {
-    padding-left: 57px;
+    padding-left: 55px;
     padding-right: 28px;
+    padding-top: 6px;
   }
-  .header__bottom__text {
-    font-family: OpenSans-Regular;
-    text-transform: uppercase;
-    font-weight: 300;
+  .download {
+    padding-top: 10px;
+    letter-spacing: 0.44px;
   }
-  /*main*/
-  .footbal {
-    position: absolute;
-    width: 497px;
-    height: 699px;
-    left: -160px;
-    top: 1000px;
+  .get {
+    padding-top: 17px;
+    margin-left: -3px;
+    letter-spacing: 0.44px;
+  }
+  .bottom_text {
+    line-height: 18px;
+  }
+  .google {
+    margin-top: -2px;
+    margin-left: -2px;
+  }
+
+/*section 1 footballer */
+
+.footbal {
+    left: -162px;
+    top: 84px;
+    width: 280px;
+    height: 800px;
   }
   .main__ferst {
-    padding-top: 85px;
+    padding-top: 49px;
   }
   .block1__zag {
-    padding-bottom: 61px;
+    padding-bottom: 18px;
   }
   .block1 {
-    padding-bottom: 40px;
-    padding-left: 291px;
+    padding-bottom: 34px;
+    padding-left: 37.9%;
   }
   .connect {
-    display: flex;
     padding-bottom: 10px;
   }
-  .p1 {
-    padding-left: 13px;
-    font-size: 32px;
-    letter-spacing: 1.6px;
+  .color__1 {
+    margin-top: -1px;
+  }
+  .connection {
+    margin-top: 1px;
   }
   .p2 {
     font-size: 16px;
     letter-spacing: 0.8px;
-    width: 452px;
+    width: 92%;
+    line-height: 25.5px;
   }
   .block2 {
-    padding-bottom: 37px;
-    padding-left: 291px;
+    padding-bottom: 33px;
+    padding-left: 37.9%;
   }
   .collab {
     padding-top: 26px;
     display: flex;
     padding-bottom: 16px;
   }
+  .color__2{
+    padding-top: 2px;
+    padding-left: 0px;
+    margin-left: 0px;
+  }
+  .Collaboration {
+    margin-top: 5px;
+  }
+  .p22{
+    margin-left: 0;
+    padding-top: 0;
+    margin-top: -6px;
+    line-height: 28px;
+  }
   .block3 {
     padding-bottom: 32px;
-    padding-left: 291px;
+    padding-left: 37.9%;
   }
   .grow {
     display: flex;
-    padding-top: 55px;
+    padding-top: 27px;
     padding-bottom: 16px;
   }
+  .bl3 {
+    margin-top: -10px;
+    margin-left: 0px;
+    line-height: 28px;
+    width: 96%;;
+  }
+  .color__3 {
+    margin-top: -8px;
+    margin-left: -1px;
+  }
   /*main 2 block*/
+  .bascetbol {
+    position: relative;
+    width: 100px;
+    float: right;
+    right: 336px;
+    top: 40px;
+  }
   .block__second, .block__second__2, .block__second__3{
-    padding-left: 34px;
+    padding-left: 4.4%;
   }
   .block__second {
-    padding-bottom: 36px;
+    padding-bottom: 32px;
   }
   .block__second__2 {
-    padding-bottom: 37px;
+    padding-bottom: 34px;
   }
-  .bascetbol {
-    position: absolute;
-    width: 690px;
-    height: 565px;
-    left: 55%;
-    top: 1725px;
+  .players {
+    margin-left: -6px;
+    margin-top: 6px;
+  }
+  .color__12 {
+    margin-left: -2px;
+  }
+  .connection2 {
+    margin-left: -1px;
+    margin-top: 1px;
   }
   .second__p2 {
-    width: 390px;
+    width: 55%;
+    line-height: 28px;
   }
+  .second__p21 {
+    padding-top: 0;
+    margin-top: -3px;
+    margin-left: -3px;
+  }
+  .color__22 {
+    margin-top: -6px;
+    margin-left: -2px;
+  }
+  .numb:after {
+    padding-left: 21px;
+    font-size: 21%;
+    margin-left: -2px;
+  }
+  .Collaboration2 {
+    margin-left: -3px;
+    margin-top: 6px;
+  }
+  .second__p22{
+    padding-top: 0;
+    margin-top: -8px;
+    margin-left: -3px;
+    letter-spacing: 0.8px;
+  }
+  .block__second__3 {
+    padding-bottom: 32px;
+  }
+  .grow2 {
+    padding-top: 49px;
+    padding-bottom: 16px;
+  }
+  .growth {
+    margin-top: 1px;
+  }
+  .bl34 {
+    margin-top: -8px;
+    margin-left: -2px;
+    letter-spacing: 0.9px;
+    font-size: 18px;
+    width: 60%;
+  }
+  
   /* main block 3 */
   .active {
     display: flex;
     flex-direction: column;
+    padding-bottom: 86px;
   }
   .table__img {
     width: 100%;
-    height: 584px;
   }
   .zero {
     width: 116px;
-    height: 116px;
-    margin-top: -70px;
+    height: 110px;
+    margin-top: -84px;
     margin-left: 33px;
     font-size: 24px;
   }
   .zero p{
-    padding: 32px 47px 55px 44px;
+    padding: 28px 47px 55px 44px;
   }
   .zero:after {
-    bottom: 68px;
-    padding-left: 28px;
+    bottom: 74px;
+    padding-left: 25px;
     margin-left: 44px;
     font-size: 20%;
   }
-  .main__h1 {
-    padding-top: 90px;
-    padding-left: 32px;
+  .main__active {
+    padding-top: 26px;
+    padding-left: 3.3%;
   }
   .main_p2 {
-    padding-top: 37px;
-    padding-left: 33px;
-    width: 649px;
-  }
-  .img3 {
+    padding-top: 10px;
+    padding-left: 4%;
+    width: 86%;
+    letter-spacing: 1.23px;
   }
   .reverse {
     flex-direction: column-reverse;
@@ -163,14 +273,37 @@
     margin-left: 0;
   }
   .zero__2 {
+    margin-top: -96px;
     z-index: 10;
   }
   .block1__zag__2 {
-    width: 960px;
+    width: 100%;
   }
-  .main__h1__2, .main_p2__2 {
-    margin-left: 0px;
+  .main__Find {
+    margin-top: 26px;
+    margin-left: 3.3%;
   }
+  .main_p2__2 {
+    width: 90%;
+    margin-left: 0.2%; 
+    margin-top: 2px;
+  }
+  .img3 {
+    margin-top: 0px;
+  }
+  .zero__3 {
+    margin-top: -94px;
+  }
+  .main__Work {
+    margin-top: 26px;
+    margin-left: 4.2%;
+  }
+  .main_p2__3 {
+    width: 88%;
+    margin-left: 0.2%; 
+    margin-top: 1px;
+    padding-bottom: 12px;
+  }  
     /*footer*/
   footer {
     background: url(../images/game_960.png) no-repeat;
@@ -181,23 +314,45 @@
     padding-top: 126px;
     flex-direction: column;
   }
-  .footer__h1 {
-    padding-top: 82px;
-    letter-spacing: 4.85px;
+  .footer__svg {
+    margin: 0 auto;
+  }
+  .footer__text {
+    padding-bottom: 122px;
+  }
+  .footer__h2 {
+    padding-top: 62px;
+    margin-left: -0.5%;
+    letter-spacing: 4.4px;
   }
   .footer__p {
     font-size: 36px;
     line-height: 60px;
-    padding-left: 62px;
-    padding-top: 27px;
-  }
-  .footer__center {
-    padding-top: 287px;
-    padding-bottom: 0;
+    padding-left: 8%;
+    padding-top: 0px;
   }
   .footer__bottom {
     width: 205px;
-    height: 56px;
-    padding: 55px 0 24px 40%;
+    margin: 0 auto;
+    padding: 0;
+    margin-top: -44px;
+  }
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 960px) {
+  header {
+    background: #0a0e34;
+    background: url(../images/football_12802.jpg) no-repeat;
+    }
+  }
+
+@media screen and (max-width: 723px) {
+  .bascetbol {
+    position: relative;
+    width: 100px;
+    float: right;
+    right: 336px;
+    top: 00px;
   }
 }

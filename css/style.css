@@ -22,12 +22,12 @@ li {list-style: none;}
 }
 html {
   overflow-x: hidden;
-  width: 1920px;
+  width: 100%;
+  margin: 0 auto;
 }
 body {
   font-family: OpenSans, sans-serif;
-  width: 100%;
-  margin: 0 auto;
+  width: 1920px;
 }
 
 h1 {
@@ -67,22 +67,27 @@ header {
   margin-right: auto;
   padding-top: 46px;
   width: 191px;
-  height: 52px;
 }
 
 .header__center {
-  padding-top: 265px;
-  padding-left: 184px;
-  padding-bottom: 196px;
+  padding-top: 258px;
+  padding-bottom: 198px;
+  margin: 0 auto;
+  width: 80.8%;
+}
+.header__center h1 {
+  display: flex;
+  flex-direction: column;
 }
 .play {
-  padding-left: 451px;
+  padding-left: 452px;
   margin-top: -30px;
 }
 .header__bottom{
   display: flex;
-  padding-left: 620px;
+  justify-content: center;
   padding-bottom: 110px; 
+  padding-left: 44px;
 }
 a {
   display: flex;
@@ -98,19 +103,17 @@ a {
 }
 .hb_svg {
   width: 49px;
-  height: 54px;
 }
 .bottom__svg__1 {
   padding-left: 34px;
   padding-right: 21px;
 }
 .hb_svg__2 {
-  width: 44px;
-  height: 60px;
+  width: 46px;
 }
 .bottom__svg__2 {
-  padding-left: 55px;
-  padding-right: 28px;
+  padding-left: 54px;
+  padding-right: 26px;
   padding-top: 6px;
 }
 .header__bottom__text {
@@ -118,10 +121,10 @@ a {
   
 }
 .download {
-  padding-top: 12px;
+  padding-top: 10px;
 }
 .get {
-  padding-top: 17px;
+  padding-top: 11px;
 }
 .bottom_text {
   font-weight: 700;
@@ -134,11 +137,10 @@ a {
 
 /*section 1 footballer */
 .footbal {
-  position: absolute;
-  width: 566px;
-  height: 908px;
+  position: relative;
+  float: left;
   left: 392px;
-  top: 987px;
+  top: 27px;
 }
 .main__ferst {
   padding-top: 87px;
@@ -193,7 +195,7 @@ padding-left: 10px;
 
 .block2 {
   background: rgba(94, 66, 176, 0.06);
-  padding-bottom: 56px;
+  padding-bottom: 54px;
   padding-left: 1009px;
 }
 .collab {
@@ -218,10 +220,11 @@ padding-left: 10px;
 .p22{
   margin-left: -2px;
   padding-top: 1px;
+  line-height: 28px;
 }
 .block3 {
   background: #5e42b0;
-  padding-bottom: 57px;
+  padding-bottom: 55px;
   padding-left: 1009px;
 }
 .grow {
@@ -233,6 +236,7 @@ padding-left: 10px;
   color: #fff;
   margin-top: -9px;
   margin-left: -2px;
+  line-height: 28px;
 }
 .color__3 {
   color: #0a0e34;
@@ -251,6 +255,7 @@ padding-left: 10px;
   padding-top: 3px;
 }
 /*section 2 bascetbol*/
+
 .block__second, .block__second__2, .block__second__3{
   padding-left: 191px;
 }
@@ -268,16 +273,19 @@ padding-left: 10px;
 }
 .block__second__2 {
   background-color: rgba(10, 14, 52, 0.04);
-  padding-bottom: 83px;
+  padding-bottom: 84px;
+}
+.second__p2 {
+  width: 760px;
+  line-height: 28px;
+
 }
 .second__p21 {
-  padding-top: 4px;
+  padding-top: 3px;
 }
 .color__22 {
-  margin-top: -9px;
-
+  margin-top: -8px;
 }
-
 .numb__block2:after {
   padding-left: 21px;
   font-size: 21%;
@@ -301,22 +309,16 @@ padding-left: 10px;
   color: #9173e6;
 }
 .bl34 {
-  margin-top: -4px;
+  margin-top: -6px;
   margin-left: -1px;
-  width: 517px;
   letter-spacing: 0.63px;
 }
 .bascetbol {
-  position: absolute;
-  width: 991px;
-  height: 815px;
-  left: 804px;
-  top: 1870px;
-}
-.second__p2 {
-  width: 753px;
-  line-height: 28px;
-  
+  top: 23px;
+  right: 1016px;
+  position: relative;
+  float: right;
+  width: 100px;
 }
 /* section 3 */
 .active {
@@ -346,6 +348,10 @@ padding-left: 10px;
 .main__active {
   padding-top: 233px;
   padding-left: 38px;
+  opacity: 0.4;
+  color: #c1c1c1;
+  font-size: 80px;
+  letter-spacing: 1.8;
 }
 .main_p2 {
   padding-top: 90px;
@@ -359,7 +365,7 @@ padding-left: 10px;
 }
 .img2 {
   margin-top: -5px;
-  margin-left: -86px;
+  margin-left: -84px;
 }
 .zero__2 {
   margin-top: 206px;
@@ -403,46 +409,39 @@ footer {
 }
 .footer__top {
   margin-left: 526px;
-  padding-top: 229px;
+  padding-top: 228px;
   display: flex;
-  align-items: center;
-  padding-bottom: 152px;
+  padding-bottom: 150px;
 }
 .footer__svg {
-  width: 128px;
-  height: 136px;
+  width: 130px;
+  height: 137px;
   background-color: #5e42b0;
   border-radius: 30px;
 }
 .surface__logo {
   width: 106px;
-  height: 86px;
-  padding-top: 25px;
-  padding-left: 10px;
+  height: 90px;
+  padding-top: 23px;
+  padding-left: 12px;
 }
 .footer__h2 {
-  line-height: 60px;
   text-transform: uppercase;
-  letter-spacing: 4.21px;
-  padding-left: 32px;
-  padding-top: 16px;
+  letter-spacing: 4.1px;
+  padding-left: 31px;
+  margin-top: -6px;
 }
 .footer__p {
   color: #a496ca;
   font-size: 30px;
   font-weight: 400;
   text-transform: uppercase;
-  padding-left: 38.5px;
-  padding-top: 1px;
+  padding-left: 34px;
   letter-spacing: 0px;
-}
-.footer__center {
-  padding-top: 153px;
-  padding-bottom: 0;
+  margin-top: -12px;
 }
 .footer__bottom {
   width: 191px;
-  height: 52px;
   padding: 152px 0 48px 0px;
   margin-right: auto;
   margin-left: auto
