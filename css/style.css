@@ -23,11 +23,10 @@ li {list-style: none;}
 html {
   overflow-x: hidden;
   width: 100%;
-  margin: 0 auto;
 }
 body {
   font-family: OpenSans, sans-serif;
-  width: 1920px;
+  width: 100%;
 }
 
 h1 {
@@ -73,14 +72,15 @@ header {
   padding-top: 258px;
   padding-bottom: 198px;
   margin: 0 auto;
-  width: 80.8%;
+  width: 90.8%;
 }
 .header__center h1 {
   display: flex;
   flex-direction: column;
+  padding-left: 5.6%;
 }
 .play {
-  padding-left: 452px;
+  padding-left: 27.4%;
   margin-top: -30px;
 }
 .header__bottom{
@@ -139,18 +139,19 @@ a {
 .footbal {
   position: relative;
   float: left;
-  left: 392px;
+  left: 20.4%;
   top: 27px;
 }
 .main__ferst {
   padding-top: 87px;
 }
 .block1__zag {
+  width: 100%;
   padding-bottom: 66px;
 }
 .block1 {
   padding-bottom: 54px;
-  padding-left: 1007px;
+  padding-left: 52.44%;
 }
 .connect {
   display: flex;
@@ -189,14 +190,14 @@ padding-left: 10px;
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 1px;
-  width: 717px;
+  width: 80%;
   padding-left: 1.5px;
 }
 
 .block2 {
   background: rgba(94, 66, 176, 0.06);
   padding-bottom: 54px;
-  padding-left: 1009px;
+  padding-left: 52.5%;
 }
 .collab {
   padding-top: 47px;
@@ -225,7 +226,7 @@ padding-left: 10px;
 .block3 {
   background: #5e42b0;
   padding-bottom: 55px;
-  padding-left: 1009px;
+  padding-left: 52.5%;
 }
 .grow {
   display: flex;
@@ -257,7 +258,7 @@ padding-left: 10px;
 /*section 2 bascetbol*/
 
 .block__second, .block__second__2, .block__second__3{
-  padding-left: 191px;
+  padding-left: 10%;
 }
 .block__second {
   padding-top: 4px;
@@ -276,7 +277,7 @@ padding-left: 10px;
   padding-bottom: 84px;
 }
 .second__p2 {
-  width: 760px;
+  width: 45%;
   line-height: 28px;
 
 }
@@ -315,7 +316,7 @@ padding-left: 10px;
 }
 .bascetbol {
   top: 23px;
-  right: 1016px;
+  left: -52.9%;
   position: relative;
   float: right;
   width: 100px;
@@ -345,23 +346,25 @@ padding-left: 10px;
   padding-left: 27px;
   margin-left: 70px;
 }
-.main__active {
-  padding-top: 233px;
-  padding-left: 38px;
+.main_h3 {
+  font-size: 80px;
+  letter-spacing: 0;
   opacity: 0.4;
   color: #c1c1c1;
-  font-size: 80px;
-  letter-spacing: 1.8;
+}
+.main__active {
+  padding-top: 233px;
+  padding-left: 4.4%;
 }
 .main_p2 {
-  padding-top: 90px;
-  padding-left: 42px;
+  padding-top: 89px;
+  padding-left: 4.8%;
   color: #000000;
   font-size: 24px;
   font-weight: 400;
   line-height: 28px;
   letter-spacing: 1.16px;
-  width: 618px;
+  width: 74%;
 }
 .img2 {
   margin-top: -5px;
@@ -373,17 +376,15 @@ padding-left: 10px;
   width: 168px;
   height: 148px;
 }
-.block1__zag__2 {
-  width: 960px;
-}
 .main__Find {
-  margin-left: 186px;
+  margin-left: 19.5%;
   margin-top: 228px;
+  width: 70%;
 }
 .main_p2__2 {
-  width: 700px;
-  margin-left: 150px; 
-  margin-top: -42px;
+
+  margin-left: 15%; 
+  margin-top: -41px;
 }
 .img3 {
   margin-top: -5px;
@@ -394,12 +395,12 @@ padding-left: 10px;
   height: 146px;
 }
 .main__Work {
-  margin-left: 42px;
+  padding-left: 5%;
   margin-top: 228px;
+  font-size: 80px;
 }
 .main_p2__3 {
-  width: 660px;
-  margin-left: -2px; 
+  margin-left: -1px; 
   margin-top: -6px;
 }
 /*footer*/
@@ -408,7 +409,7 @@ footer {
   background: url(../images/game_1920.png) no-repeat;
 }
 .footer__top {
-  margin-left: 526px;
+  margin-left: 27.3%;
   padding-top: 228px;
   display: flex;
   padding-bottom: 150px;
@@ -445,7 +446,33 @@ footer {
   padding: 152px 0 48px 0px;
   margin-right: auto;
   margin-left: auto
-
 }
 
+@media screen and (max-width: 1919px) {
+  .play {
+    padding-left: 12%;
+  }
+}
 
+@media screen and (max-width: 1490px) {
+  .header__center{
+    padding-bottom: 100px;
+  }
+  .main_p2__3 {
+    margin-left: -1px; 
+    margin-top: -6px;
+    width: 95%;
+  }
+  .block1__zag {
+    padding-bottom: 1px;
+  }
+}
+
+@media screen and (max-width: 1790px) {
+  .footbal {
+    left: 2%;
+  }
+  .footer__top {
+    margin-left: 18%;
+  }
+}

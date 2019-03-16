@@ -95,11 +95,11 @@
   }
   /*main*/
   .footbal {
-    position: absolute;
-    width: 400px;
-    height: 281px;
+    position: relative;
+    width: 320px;
+    height: 1px;
     left: 22%;
-    top: 648px;
+    top: 80px;
   }
   .main__ferst {
     padding-top: 8px;
@@ -189,11 +189,11 @@
   /*main 2 block*/
 
   .bascetbol {
-    position: absolute;
-    width: 302px;
-    height: 248px;
-    left: 10%;
-    top: 1608px;
+    position: relative;
+    width: 80%;
+    height: 1px;
+    left: 1%;
+    top: 80px;
   }
   .block__second, .block__second__2, .block__second__3{
     padding-left: 14%;
@@ -291,15 +291,15 @@
     letter-spacing: 1.4px;
   }
   .main_p2 {
-    padding-top: 12.5px;
+    padding-top: 11.5px;
     padding-left: 5.4%;
     font-size: 16px;
     letter-spacing: 0.8px;
-    line-height: 21.6px;
+    line-height: 21px;
     width: 76%;
   }
   .block__main {
-    padding-bottom: 73px;
+    padding-bottom: 74px;
   }
   .reverse {
     flex-direction: column-reverse;
@@ -370,15 +370,15 @@
     padding-bottom: 0;
   }
   .footer__h2 {
-    padding-top: 54px;
+    padding-top: 56px;
     font-size: 32px;
     letter-spacing: 1.6px;
-    padding-left: 19px;
+    padding-left: 6px;
   }
   .footer__p {
     font-size: 14px;
     letter-spacing: 0.7px;
-    padding-left: 7.5%;
+    padding-left: 3%;
     margin-top: -20px;
   }
   .footer__center {
@@ -407,10 +407,10 @@
 }
 @media screen and (max-width: 510px) {
   .bascetbol {
-    position: absolute;
-    width: 302px;
-    height: 248px;
-    left: 2.8%;
-    top: 1657px;
+    position: relative;
+    width: 99%;
+    height: 1px;
+    left: 1.8%;
+    top: 80px;
   }
 }

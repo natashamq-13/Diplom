@@ -66,7 +66,7 @@
     padding-top: 6px;
   }
   .download {
-    padding-top: 10px;
+    padding-top: 11px;
     letter-spacing: 0.44px;
   }
   .get {
@@ -160,7 +160,7 @@
   /*main 2 block*/
   .bascetbol {
     position: relative;
-    width: 100px;
+    width: 30px;
     float: right;
     right: 336px;
     top: 40px;
@@ -259,6 +259,7 @@
   .main__active {
     padding-top: 26px;
     padding-left: 3.3%;
+    width: 80%;
   }
   .main_p2 {
     padding-top: 10px;
@@ -282,9 +283,10 @@
   .main__Find {
     margin-top: 26px;
     margin-left: 3.3%;
+    width: 100%;
   }
   .main_p2__2 {
-    width: 90%;
+    width: 600px;
     margin-left: 0.2%; 
     margin-top: 2px;
   }
@@ -340,7 +342,7 @@
 }
 
 
-@media screen and (min-width: 769px) and (max-width: 960px) {
+@media screen and (min-width: 770px) and (max-width: 960px) {
   header {
     background: #0a0e34;
     background: url(../images/football_12802.jpg) no-repeat;
